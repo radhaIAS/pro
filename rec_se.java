@@ -1,3 +1,23 @@
+// Function RecursiveSelectionSort(arr, start):
+//     If start >= length of arr - 1:
+//         Return
+
+//     min_index = start
+//     For i = start + 1 to end of arr:
+//         If arr[i] < arr[min_index]:
+//             min_index = i
+
+//     Swap arr[start] with arr[min_index]
+
+//     Call RecursiveSelectionSort(arr, start + 1)
+
+
+
+
+
+
+
+
 public class RecursiveSelectionSort {
 
     // Recursive selection sort function
